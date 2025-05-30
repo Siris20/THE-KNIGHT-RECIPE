@@ -1,0 +1,80 @@
+  header {
+   background-color: #0f1e25;  
+    font-weight: 700;
+    border-bottom: 10PX solid #1f3a3e; 
+    border-top: 10PX solid #1f3a3e;
+  }
+   
+
+  /* Cambia el color de las barritas hamburguesa */
+button.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='orange' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+body{
+  background-color: #1f1f1f !important;
+}
+
+
+.boton{
+ background-color: orangered;
+ color: white;
+ font-size:x-larg;
+ border-color: orangered;
+ margin-right: 60px;
+ margin-bottom: 30px;
+ padding: 10px 20px;
+ font-size:20px ;
+ border-radius: 10px;
+}
+
+.end{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.estrellas {
+  color: gold;
+  margin: 5px;
+  margin-top: 0;
+  font-size: 40px;
+}
+
+
+
+.testimonios{
+  margin: 20px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 40px;
+}
+
+@media (min-width: 1200px) { 
+    .testimonio{
+      margin: 20px;
+      background-color: white;
+      border-radius: 15px;
+      padding: 40px;
+      width: 40vh;
+    }
+  }
+.tes-arriba{
+  display: flex;
+}
+
+.tes-arriba img{
+  height: 120px;
+  padding-right: 40px;
+}
+
+.derecha{
+ text-align: center;
+}
+p{
+  color: black;
+  margin-top: 30px;
+}
+
+footer p{
+  color: white;
+}

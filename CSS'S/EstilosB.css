@@ -1,0 +1,84 @@
+  header {
+   background-color: #0f1e25;  
+    font-weight: 700;
+    border-bottom: 10PX solid #1f3a3e; 
+    border-top: 10PX solid #1f3a3e;
+  }
+   
+
+  /* Cambia el color de las barritas hamburguesa */
+button.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='orange' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+body{
+  background-color: #2d4421;
+}
+
+ .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../IMAGENES/imagen_menu.png);
+    background-size: cover;
+    color: #ffd700; 
+    padding: 80px 20px; 
+  }
+  
+  /* SEPARADOR "ACERCA DE NOSOTROS" */
+  .separador {
+    background-color: #0b1f25; 
+    color: white;               
+    text-align: center;         
+    padding: 20px 0;           
+    font-size: 24px;            
+    font-weight: bold;         
+    letter-spacing: 7px;        
+    border-bottom: 10PX solid #1f3a3e; 
+    border-top: 10PX solid #1f3a3e;
+    margin: 0;
+  }
+
+  .imgTomate {
+    width: 350px;
+    height: auto;
+    padding-right: 90px;
+  }
+  .imgAguacate{
+      width: 350px;
+      height: auto;
+      padding-left: 90px;
+  }
+
+.nosotros h1{
+color: gold;
+font-style: italic;
+font-weight: 400;
+}
+
+.nosotros p{
+ color: white;
+    font-size: 30px;
+}
+
+ .separador {
+    background-color: #0b1f25; 
+    color: white;               
+    text-align: center;         
+    padding: 20px 0;           
+    font-size: 24px;            
+    font-weight: bold;         
+    letter-spacing: 7px;        
+    border-bottom: 10PX solid #1f3a3e; 
+    border-top: 10PX solid #1f3a3e;
+    margin: 0;
+  }
+
+  .esfooter{
+    background-color: #0b1f25; 
+    color: white;                       
+              
+              
+    font-weight: bold;         
+          
+    border-bottom: 10PX solid #1f3a3e; 
+    border-top: 10PX solid #1f3a3e;
+    margin: 0;
+  }

@@ -1,0 +1,72 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .banner {
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
+ 
+  .banner1 {
+    background-image: url('/IMAGENES/boda.jpg'); 
+  }
+  
+  .banner2 {
+    background-image: url('/IMAGENES/Fiesta.jpg');
+  }
+  
+  .banner3 {
+    background-image: url('/IMAGENES/Corporativo.jpg');
+  }
+ 
+  
+  .contenido {
+    z-index: 2; /* Trae el contenido adelante de la capa oscura */
+    max-width: 600px;
+  }
+  
+  .contenido h5 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .contenido h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .contenido p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  
+  .btn-amarillo {
+    background: #f9a825;
+    color: white;
+  }
+  
