@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
+    <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>COTIZAR_B</title>
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
-   <link rel="stylesheet" href="/CSS'S/EstilosB.css">
-   <link rel="stylesheet" href="/CSS'S/Cotizar_B.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/CSS'S/EstilosB.css">
+  <link rel="stylesheet" href="/CSS'S/Cotizar_B.css">
+  <link rel="stylesheet" href="/CSS'S/resultados_form.css">
   <!-- Estilos personalizados -->
-  </style>
 </head>
+
 <body>
 
-  <header>
+    
+      <header>
     <nav class="navbar navbar-expand-md bg-0b1f25">
       <div class="container d-flex justify-content-between align-items-center">
-        
+
         <!-- Logo -->
         <a class="navbar-brand" href="#inicio">
           <img src="../IMAGENES/logo.png" alt="The Knight Recipe" height="70" />
@@ -35,13 +39,14 @@
         </button>
 
         <!-- Menú colapsable -->
-         <div class="container">
+        <div class="container">
           <div class="row">
             <div class="collapse navbar-collapse ms-auto" id="menuPrincipal">
-               <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link text-white" href="/HTML'S/INICIO_B.html">INICIO</a></li>
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link text-white" href="/index.html">INICIO</a></li>
                 <li class="nav-item"><a class="nav-link text-white" href="/HTML'S/MENU_B.html">MENU</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="/HTML'S/INICIO_B.html#contacto">CONTACTO</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="/index.html#contacto">CONTACTO</a>
+                </li>
                 <li class="nav-item"><a class="nav-link text-white" href="/HTML'S/SERVICIOS_B.html">SERVICIOS</a></li>
                 <li class="nav-item"><a class="nav-link text-white" href="/HTML'S/TESTIMONIOS_B.html">TESTIMONIOS</a>
                 </li>
@@ -51,178 +56,128 @@
               </ul>
             </div>
           </div>
-         </div>
+        </div>
     </nav>
-</header>
-<div class="py-4"></div>
-  <div class="container p-5 rounded-5 bg-light">
-    <form class="row g-3 py">
-      <div class="col-md-6">
-        <label for="inputEmail4" class="form-label">Nombre</label>
-        <input type="email" class="form-control" id="inputEmail4">
-      </div>
-      <div class="col-md-6">
-        <label for="inputPassword4" class="form-label">Apellidos</label>
-        <input type="password" class="form-control" id="inputPassword4">
-      </div>
-      <div class="col-12">
-        <label for="inputAddress" class="form-label">Correo Electronico</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="Ejemplo@gmail.com">
-      </div>
-      <div class="col-md-6">
-        <label for="inputEmail4" class="form-label">Numero de telefono</label>
-        <input type="email" class="form-control" id="inputEmail4">
-      </div>
-      <div class="col-md-6">
-        <label for="inputPassword4" class="form-label">Otro Numero</label>
-        <input type="password" class="form-control" id="inputPassword4" placeholder="(Opcional)">
-      </div>
-      <div class="col-12">
-        <label for="inputAddress2" class="form-label">Direccion</label>
-        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-      </div> 
-      
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">Ciudad</label>
-        <input type="text" class="form-control" id="inputCity">
-      </div>
-      <div class="col-md-4">
-        <label for="inputState" class="form-label">Estado</label>
-        <select id="inputState" class="form-select">
-          <option selected>Seleccione una opcion...</option>
-          <option>Zacatecas</option>
-          <option>Teocaltiche</option>
-          <option>Jalisco</option>
-          <option>Otro</option>
-        </select>
-      </div>
-      <div class="col-md-2">
-        <label for="inputZip" class="form-label">CP</label>
-        <input type="text" class="form-control" id="inputZip">
-      </div>
-      <div class="col-md-6">
-           <label for="inputAddress2" class="form-label">Numero de invitados</label>
-        <input type="text" class="form-control" id="inputAddress2">
-      </div>
-      <div class="col-md-6">
-        <label for="inputState" class="form-label">Tipo de evento</label>
-        <select id="inputState" class="form-select">
-          <option selected>Seleccione una opcion...</option>
-          <option>Boda</option>
-          <option>Fiesta</option>
-          <option>Evento Corporativo</option>
-        </select>
-        </div>
-        <div class="col-12"><label for="inputZip" class="form-label">Servicios Extra</label></div>
-        <div class="col-md-4"> 
-          <div class="form-check form-switch pb-3">
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-            <label class="form-check-label" for="flexSwitchCheckDefault">Barra De Bebidas</label>
-          </div>
-          <div class="form-check form-switch pb-3">
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
-            <label class="form-check-label" for="flexSwitchCheckChecked">Charcuteria</label>
-          </div>
-        </div>
-          <div class="col-md-4">
-            <div class="form-check form-switch pb-3">
-                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                <label class="form-check-label" for="flexSwitchCheckDefault">Mesa De Postres</label>
-              </div>
-              <div class="form-check form-switch pb-3">
-                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
-                <label class="form-check-label" for="flexSwitchCheckChecked">Cordinacion De Evento</label>
-              </div>
-            </div>
-         <div class="col-md-4">
-            <div class="form-check form-switch pb-3">
-                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                <label class="form-check-label" for="flexSwitchCheckDefault">Equipo De Meseros</label>
-              </div>
-              <div class="form-check form-switch pb-3">
-                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
-                <label class="form-check-label" for="flexSwitchCheckChecked">Personalizado</label>
-              </div>
-            </div>
-      <div class="col-12">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck">
-          <label class="form-check-label" for="gridCheck">
-            Recibir Ofertas por Email
-          </label>
-        </div>
-      </div>
-      <div class="col-12">
-        <button type="submit" class="btn btn-primary">ENVIAR</button>
-      </div>
-    </form>
-  </div>
-  <div class="py-4"></div>
- 
-  <!-- Footer -->
-    <footer class="container-fluid py-4 esfooter">
-        <div class="container">
-            <div class="row">
-                <!-- Columna 1: Enlaces principales -->
-                <div class="col-md-4 mb-4 mb-md-0">
-                    <h3 class="h5 mb-3">Paginas</h3>
-                    <ul class="list-unstyled">
-                    <li class="mb-2"><a href="/HTML'S/INICIO_B.html" class="text-decoration-none">Inicio</a></li>
-                        <li class="mb-2"><a href="/HTML'S/SERVICIOS_B.html" class="text-decoration-none">Servicios</a></li>
-                        <li class="mb-2"><a href="/HTML'S/MENU_B.html" class="text-decoration-none">Menu</a></li>
-                        <li class="mb-2"><a href="/HTML'S/TESTIMONIOS_B.html" class="text-decoration-none">Testimonios</a></li>
-                        <li class="mb-2"><a href="/HTML'S/COTIZAR_B.html" class="text-decoration-none">Cotizacion</a></li>
-                    </ul>
-                </div>
+  </header>
+       
 
-                <!-- Columna 2: Contacto y redes sociales -->               
-                <div class="col-md-4 mb-4 mb-md-0">
-                    <h3 class="h5 mb-3">Contacto</h3>
-                    <address id="contacto">
-                        <p class="mb-2">📍 Dirección: Calle Principal #123, Ciudad</p>
-                        <p class="mb-2">📞 Teléfono: <a href="tel:+123456789">+12 345 6789</a></p>
-                        <p class="mb-3">✉️ Email: <a href="mailto:info@restaurante.com">info@restaurante.com</a></p>
-                    </address>
-                    
-                    <h4 class="h6 mb-2">Síguenos</h4>
-                    <div class="social-links">
-                        <a href="#" class="d-inline-block me-2">Instagram</a>
-                        <a href="#" class="d-inline-block me-2">Facebook</a>
-                        <a href="#" class="d-inline-block">WhatsApp</a>
+    <div class="py-4"></div>
+    <div class="container p-5 rounded-5 bg-light">
+        <form class="fvalida row g-3 py" id="cotizacionForm">
+            <div class="col-md-6">
+                <label for="nombre" class="form-label">Nombre*</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="col-md-6">
+                <label for="apellidos" class="form-label">Apellidos*</label>
+                <input type="text" class="form-control" id="apellidos">
+            </div>
+            <div class="col-12">
+                <label for="email" class="form-label">Correo Electronico*</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="col-md-6">
+                <label for="tel" class="form-label">Numero de telefono*</label>
+                <input type="tel" class="form-control" id="tel">
+            </div>
+            <div class="col-md-6">
+                <label for="tel_opcional" class="form-label">Otro Numero</label>
+                <input type="tel" class="form-control" id="tel_opcional" placeholder="(Opcional)">
+            </div>
+            <div class="col-12">
+                <label for="direccion" class="form-label">Direccion</label>
+                <input type="text" class="form-control" id="direccion" placeholder="Apartamento, estudio, o piso">
+            </div>
+
+            <div class="col-md-6">
+                <label for="ciudad" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="ciudad">
+            </div>
+            <div class="col-md-4">
+                <label for="seleccion" class="form-label">Estado</label>
+                <select id="seleccion" class="form-select">
+                    <option selected>Seleccione una opcion...</option>
+                    <option>Zacatecas</option>
+                    <option>Aguascalientes</option>
+                    <option>Jalisco</option>
+                    <option>Otro</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="cp" class="form-label">CP</label>
+                <input type="number" class="form-control" id="cp">
+            </div>
+            <div class="col-md-6">
+                <label for="n_invitados" class="form-label">Numero de invitados*</label>
+                <input type="number" class="form-control" id="n_invitados" min="1" required>
+            </div>
+            <div class="col-md-6">
+                <label for="t_evento" class="form-label">Tipo de evento*</label>
+                <select id="t_evento" class="form-select">
+                    <option value="" selected>Seleccione una opcion...</option>
+                    <option value="Boda">Boda</option>
+                    <option value="Fiesta">Fiesta</option>
+                    <option value="Evento Corporativo">Evento Corporativo</option>
+                </select>
+            </div>
+            <div class="col-12"><label for="inputZip" class="form-label">Servicios Extra</label></div>
+            <div class="col-md-4">
+                <div class="form-check form-switch pb-3">
+                    <input class="form-check-input" type="checkbox" role="switch" id="Barra_Bebidas">
+                    <label class="form-check-label" for="Barra_Bebidas">Barra De Bebidas</label>
+                </div>
+                <div class="form-check form-switch pb-3">
+                    <input class="form-check-input" type="checkbox" role="switch" id="Charcuteria" checked>
+                    <label class="form-check-label" for="Charcuteria">Charcuteria</label>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-check form-switch pb-3">
+                    <input class="form-check-input" type="checkbox" role="switch" id="Mesa_Postres">
+                    <label class="form-check-label" for="Mesa_Postres">Mesa De Postres</label>
+                </div>
+                <div class="form-check form-switch pb-3">
+                    <input class="form-check-input" type="checkbox" role="switch" id="Cordinacion_Evento" checked>
+                    <label class="form-check-label" for="Cordinacion_Evento">Cordinacion De Evento</label>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-check form-switch pb-3">
+                    <input class="form-check-input" type="checkbox" role="switch" id="Equipo_Meseros">
+                    <label class="form-check-label" for="Equipo_Meseros">Equipo De Meseros</label>
+                </div>
+                <div class="form-check form-switch pb-3">
+                    <input class="form-check-input" type="checkbox" role="switch" id="Personalizado" checked>
+                    <label class="form-check-label" for="Personalizado">Personalizado</label>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Recibir Ofertas por Email
+                    </label>
+                    <div class="estimador-tiempo-real">
+                        <h3>Estimado de Cotización:</h3>
+                        <p id="costoEstimado">--</p>
                     </div>
                 </div>
-
-                <!-- Columna 3: Horario y enlaces legales -->
-                <div class="col-md-4">
-                    <h3 class="h5 mb-3">Horario de Atención</h3>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-1">Lunes a Viernes: 9am - 10pm</li>
-                        <li class="mb-1">Sábados: 10am - 11pm</li>
-                        <li>Domingos: 11am - 8pm</li>
-                    </ul>
-                    
-                    <h4 class="h6 mb-2">Información Legal</h4>
-                    <ul class="list-unstyled">
-                        <li class="mb-1"><a href="/aviso-legal" class="text-decoration-none">Aviso Legal</a></li>
-                        <li class="mb-1"><a href="/politica-privacidad" class="text-decoration-none">Política de Privacidad</a></li>
-                        <li><a href="/politica-cookies" class="text-decoration-none">Política de Cookies</a></li>
-                    </ul>
-                </div>
             </div>
-
-            <!-- Línea separadora -->
-            <hr class="my-4">
-
-            <!-- Copyright -->
-            <div class="row">
-                <div class="col-12 text-center">
-                    <p class="mb-0">© <span id="current-year">2023</span> Restaurante Gourmet Catering. Todos los derechos reservados.</p>
-                </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary" id="enviar" value="Enviar">ENVIAR</button>
             </div>
-        </div>
-    </footer>
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        </form>
+        <br>
+        <div class="resultados"></div>
+    </div>
+    <div class="py-4"></div>
 
+    <footer>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../JS'S/Validacion_Form.js"></script>
+    <script src="../JS'S/Cotizacion_TR.js"></script>
 </body>
+
 </html>
